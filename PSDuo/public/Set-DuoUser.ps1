@@ -29,6 +29,9 @@ function Set-Duouser(){
         [String]$email,
         [parameter(Mandatory = $false,
         ValueFromPipelineByPropertyName = $true)]
+        [String]$status,
+        [parameter(Mandatory = $false,
+        ValueFromPipelineByPropertyName = $true)]
         [String]$notes
     )
     [string]$method = "POST"
