@@ -1,5 +1,6 @@
 # PSDUO - A PowerShell module for DUO
 The Admin API provides programmatic access to the administrative functionality of Duo Security's two-factor authentication platform.
+Forked from PWSHNinja (https://github.com/PWSHNinja/PSDuo).
 
 ### DUO API Reference Methods & Params
 https://duo.com/docs/adminapi
@@ -33,7 +34,7 @@ Successful responses will have a stat value of “OK” and a response key. The 
 
 # Getting Started
 ## Download or Clone the module
-    git clone https://github.com/PWSHNinja/PSDuo.git
+    git clone https://github.com/billypurdue/PSDuo.git
 
 Save it wherever you would like, or directly to a $PSModulePath and
 Import the module into PowerShell
